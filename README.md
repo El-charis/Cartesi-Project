@@ -32,7 +32,8 @@ This project demonstrates a skill management application using Cartesi Rollups f
     npm install -g @cartesi/rollups
 
  ### Environment Variables:
-Set the ROLLUP_HTTP_SERVER_URL environment variable to the URL of your Cartesi Rollups server. You can create a .env file in your project root with the following content:
+Set the ROLLUP_HTTP_SERVER_URL environment variable to the URL of your Cartesi Rollups server. 
+You can create a .env file in your project root with the following content:
 
 ROLLUP_HTTP_SERVER_URL=https://your-rollup-server-url
 
@@ -84,7 +85,8 @@ Payload Format:
 **Responses**:
 "accept": Skill action recorded successfully.
 "reject": Invalid skill name or action type.
-inspect_state
+
+**inspect_state**
 Description: Handles requests to inspect the state of skills.
 
 **Payload Format**:
